@@ -1,0 +1,35 @@
+1. Types of Prompting
+
+a. Zero-Shot Prompting (Direct task without any examples)
+b. Few-Shot Prompting (Some examples are given with the task)
+c. Chain of thought Prompting (Given a series of explanation to complete a task)
+
+2. Contextual Importance in LLMs
+
+a. Guiding Responses - The context provided in prompts ensures that the responses are accurate, detailed, and relevant to the query.
+b. Disambiguation - It helps in clarifying ambiguous terms or phrases, enhancing the model's understanding.
+c. Relevance - The more relevant the context, the more on-point the LLM's output, avoiding generic or off-topic responses.
+
+3. Model Cards
+
+A model card is a detailed document/report that provides critical information about a machine learning/AI model in a structured and accesible format. It's designed to offer transparency and governance for machine learning models, especially when they are deployed in a real world.
+
+
+4. Key elements of a model card typically include:
+
+a. Model Overview - a general description of the model, its purpose, the problem it's intended to solve, and the algorithm type it employs.
+b. Intended Use - outlines the specific scenarios and applications for which the model is designed. It also mentions scenarios where the model should not be used, thus guiding responsible deployment and use.
+c. Risk Ratings - the model is categorized based on the level of risk associated with its application, which can range from low to high. This helps in understanding the potential implications of the model's predictions and decisions.
+d. Training and Evaluation Details - information about how the model was trained, the data it was trained on, the training environment, and the metrics used to evaluate its performance.
+e. Model Performance and Metrics - specific performance metrics, observations from evaluations, and any relevant graphs or statistical data are documented here.
+f. Ethical Considerations and Recommendations - any ethical concerns related to the model and recommendations for its use, including any limitations or biases that users should be aware of.
+g. Versioning - model cards maintain a record of changes made to the model, ensuring that there is a transparent history of its development and modifications.
+h. Additional Information - custom details, caveats, and any other relevant information that doesn't fit into the standard sections can be included here.
+
+Model cards in Amazon SageMaker follow a JSON schema to standardize the format and make it easier to create, share, and update these documents.
+
+5. AI Models :
+
+a) Patient Readmission Prediction Model - designed to predict the likelihood of patients being readmitted to a hospital within 30 days of their discharge. It's a crucial tool in healthcare management, aiming to optimize patient care and resource allocation. The model uses patient data, historical trends, and various health indicators to make its predictions.
+b) Patient Treatment Outcome Prediction Model - predicts the outcomes of different treatments for patients. It plays a significant role in assisting healthcare providers in making informed decisions about patient care plans. The model analyzes various factors, including patient health records, treatment history, and response to previous treatments, to predict the effectiveness of proposed medical interventions.
+
